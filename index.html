@@ -10,19 +10,39 @@
       text-align: center;
       padding: 50px;
     }
+
     h1 {
       font-size: 40px;
       letter-spacing: 2px;
     }
+
     p {
       font-size: 18px;
       max-width: 600px;
       margin: auto;
     }
+
+    .gallery {
+      margin-top: 50px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 25px;
+    }
+
+    .gallery img {
+      width: 100%;
+      border-radius: 12px;
+      transition: 0.4s;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
   </style>
 </head>
 
 <body>
+
   <h1>Atelier of Normi the Eclectic</h1>
 
   <p>
@@ -30,5 +50,17 @@
     Each piece exists somewhere between chaos and intention—
     where meaning is felt before it is understood.
   </p>
+
+  <!-- 🎨 YOUR GALLERY -->
+  <div class="gallery">
+    <img src="images/IMG_0439.jpg">
+    <img src="images/IMG_0412.jpg">
+    <img src="images/IMG_0413.jpg">
+    <img src="images/IMG_0414.jpg">
+    <img src="images/IMG_0415.jpg">
+    <img src="images/IMG_0449.jpg">
+    <img src="images/IMG_0448.jpg">
+  </div>
+
 </body>
 </html>
