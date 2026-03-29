@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Atelier of Normi the Eclectic</title>
+    <style>
+        body {
+            background-color: #0d0d0d;
+            color: #f2f2f2;
+            font-family: Georgia, serif;
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            font-size: 40px;
+            letter-spacing: 2px;
+        }
+        p {
+            font-size: 18px;
+            max-width: 500px;
+            margin: auto;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Atelier of Normi the Eclectic</h1>
+
+    <p>
+        A living gallery of thought, flesh, and feeling—  
+        where ink becomes voice,  
+        and silence learns to speak.
+    </p>
+
+</body>
+</html>
